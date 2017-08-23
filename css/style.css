@@ -1,0 +1,15 @@
+video{
+  margin: 1rem 0 1rem 0;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+#laptop {
+  position: relative;
+  left: -50px;
+}

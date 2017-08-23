@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>New Computer Guide</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">Preparing for Our New Computers</h1>
+    <p class="lead">A guide to backing up your data before our new computers arrive.</p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2 class="display-4">Introduction</h2>
+      <p>The new computers will be arriving soon, so now is the time to start backing up your data so you are ready when our new computers arrive. The two most important things to backup are your <a href="#files">files</a> and your <a href="#pst">outlook data file(s)</a>.
+        You may also wish to backup any <a href="#bookmarks">bookmarks</a> you have in the web browsers that you use.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h2 class="display-4" id="files">Backing up your files</h2>
+      <p>The first thing you should do is make sure that all of your important files are copied somewhere where they will be accessible on your new computer. My reccomendation is to move your Documents, Downloads, Photos, and Desktop folders to a backup
+        folder on your U: drive. If you'd prefer you could copy them to a thumb drive instead. My instructions from now on will assume you are backing up on the U: drive, but it should be simple enough to apply them to another backup location.</p>
+      <p>In windows explorer go to <code>C:/Users/e######</code> where "######" is your employee number. Copy the relevant folders to your backup folder on the U: drive. If you have store documents elsewhere on your hard drive you should also move those
+        to the U: drive.</p>
+      <video width="100%" src="https://apsnm-my.sharepoint.com/personal/e138953_aps_edu/_layouts/15/guestaccess.aspx?docid=172dcd2f0fb3e46e9ae2d4f797a506e65&authkey=AVg0-v6Cr_daHaRpD0oid0E" loop controls></video>
+      <div class="alert alert-danger">
+        <strong>Warning!</strong> If you store documents anywhere other than Downloads, My Documents, and Pictures (such as directly in your C: drive) you should back those up as well. If you only followed the instructions above, you will not have backed
+        up those files and you should do so now.
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h2 class="display-4" id="pst">Backing up your Outlook .pst file</h2>
+      <p>If you move your emails to a locally stored file in Outlook (usually called "Archive" or "Personal Folders", you'll want to back that up too. To find out where that file is stored, in Outlook, click <code>File > Account Settings > Account Settings</code>        and then go to the <code>Data Files</code> tab. There will be at least one item that has the same name as your email address. Any other items there need to be backed up if they are not already stored on the U: drive. Likely they will be in <code>C:\User\e######\AppData\Local\Microsoft\Outlook\</code>.
+        The easiest way to navigate to the folder where you .pst file is stored is by selecting the file and clicking the "Open File Location..." button. Now close the Data Files dialog and Outlook. Then copy the .pst file(s) to your U: drive.</p>
+      <video width="100%" src="https://apsnm-my.sharepoint.com/personal/e138953_aps_edu/_layouts/15/guestaccess.aspx?docid=138762efc58aa491fba042c0f7e94739c&authkey=ATd9BuOEm_QW6pPdJujqlp8" loop controls></video>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h2 class="display-4" id="bookmarks">Exporting your bookmarks</h2>
+      <p>If you have bookmarks in your browsers that you don't want to lose, you can export your bookmarks to a file and put them on the U: drive. See the instructions below for how to do it in <a href="#chrome">Chrome</a>, <a href="#firefox">Firefox</a>,
+        and <a href="#ie">Internet Explorer</a>.</p>
+      <div class="card">
+        <div class="card-block">
+          <div class="card-title">
+            <h3 id="chrome"><i class="fa fa-chrome"></i> Chrome</h3></div>
+          <div class="card-body">
+            <p>Press <code>[Ctrl]+[Shift]+[O]</code> to open the bookmarks manager. Click on <code>Organize > Export bookmarks to HTML file...</code> and save the file somewhere in the U: drive.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <div class="card-title">
+            <h3 id="firefox"><i class="fa fa-firefox"></i> Firefox</h3></div>
+          <div class="card-body">
+            <p>Press <code>[Ctrl]+[Shift]+[B]</code> to open the bookmarks library. Click <code>Import and Backup > Backup...</code> and save the file somewhere in the U: drive.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <div class="card-title">
+            <h3 id="ie"><i class="fa fa-internet-explorer"></i> Internet Explorer</h3></div>
+          <div class="card-body">
+            <p>Press <code>[Alt]+[C]</code> to open the Bookmarks manager. Click on the <code>▼</code> next to <code>Add to favories</code> and select <code>Import and export...</code> choose <code>Export to file</code>, press the <code>Next</code> button,
+              select <code>Favorites</code>, choose the <code>Favorites</code> folder, and save the file somewhere on the U: drive.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
